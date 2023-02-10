@@ -1,0 +1,58 @@
+body{
+    background: rgb(53,78,205);
+    background: radial-gradient(circle, rgba(53,78,205,1) 0%, rgba(80,17,80,1) 100%);
+}
+
+.habilidades{
+
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(241, 238, 238);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 14px 20px  rgb(187, 54, 199);
+     }
+
+.container{
+    width: 100%;
+    background-color: #ddd;
+
+}
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.html{
+    background-color:red;
+    animation: fillhtml 3.7s forwards;
+}
+
+.css{
+    background-color: yellowgreen;
+    animation: fillcss 3s forwards;
+}
+.javascript{
+    background-color: blue;
+    animation: filljavascript 2.5s forwards;
+}
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes filljavascript{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
